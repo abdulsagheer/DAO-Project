@@ -117,8 +117,7 @@ const Proposals = () => {
 												? "Expired"
 												: daysRemaining(proposal.duration)}
 										</td>
-										<td
-											className="flex items-center justify-start px-6 py-4 space-x-3 text-sm font-light whitespace-nowrap">
+										<td className="flex items-center justify-start px-6 py-4 space-x-3 text-sm font-light whitespace-nowrap">
 											<Link
 												to={"/proposal/" + proposal.id}
 												className="dark:border rounded-full px-6 py-2.5 dark:border-blue-600
